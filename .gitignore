@@ -1,0 +1,36 @@
+# Ignore environment file
+.env
+.venv
+
+# Ignore all files with a .log extension
+*.log
+
+# Ignore the 'temp' directory and its contents
+temp/
+
+# Ignore a specific file named 'config.local.js'
+config.local.js
+
+# Ignore all files in the 'build' directory
+build/
+
+# Ignore the 'node_modules' directory (common in JavaScript projects)
+node_modules/
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore specific files but not others (negation)
+# Ignore all .txt files except 'important.txt'
+*.txt
+!important.txt
+
+# Comments can be added using the hash symbol
+# This line is a comment and will be ignored by Git
