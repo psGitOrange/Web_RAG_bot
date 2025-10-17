@@ -1,0 +1,18 @@
+# Core web framework
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+
+#llama-index framework
+llama-index
+llama-index-core
+llama-index-readers-web
+llama-index-embeddings-huggingface
+llama-index-llms-huggingface-api
+
+# Database ORM and PostgreSQL driver
+sqlalchemy
+psycopg2-binary
+asyncpg
+
+# Database migrations
+alembic
